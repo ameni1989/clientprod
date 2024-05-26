@@ -8,7 +8,7 @@ require('./config/connect')
 const Client= require('./models/clients')
 const Produit= require('./models/produits')
 // '/' est la route racine
-app.get('/A', function (req, res) {
+app.get('/', function (req, res) {
   res.send('heloo !');
 });
 
@@ -63,10 +63,10 @@ catch (error) {
 
 app.get('/getall',(req,res)=>{
 
-Client.find()
+Produit.find()
 .then (
-  (clients)=>{
-      res.send(clients)
+  (produits)=>{
+      res.send(produits)
 
   })
 .catch (
