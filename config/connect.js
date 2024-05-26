@@ -1,7 +1,9 @@
 const mongoose=require('mongoose');
 
 mongoose.connect('const mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://ameniweslati889:pass_word@cluster0.2qnbyfq.mongodb.net/nodetest?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://ameniweslati889:pass_word@clusterm.tgvzaw8.mongodb.net/nodetest?retryWrites=true&w=majority&appName=ClusterM
+
+')
 .then (
     ()=>{
         console.log('connected to mongodb');
